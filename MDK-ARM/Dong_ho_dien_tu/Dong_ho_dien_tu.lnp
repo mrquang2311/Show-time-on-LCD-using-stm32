@@ -1,0 +1,26 @@
+--cpu Cortex-M3
+"dong_ho_dien_tu\startup_stm32f103xb.o"
+"dong_ho_dien_tu\main.o"
+"dong_ho_dien_tu\stm32f1xx_it.o"
+"dong_ho_dien_tu\stm32f1xx_hal_msp.o"
+"dong_ho_dien_tu\stm32f1xx_hal_gpio_ex.o"
+"dong_ho_dien_tu\stm32f1xx_hal_i2c.o"
+"dong_ho_dien_tu\stm32f1xx_hal.o"
+"dong_ho_dien_tu\stm32f1xx_hal_rcc.o"
+"dong_ho_dien_tu\stm32f1xx_hal_rcc_ex.o"
+"dong_ho_dien_tu\stm32f1xx_hal_gpio.o"
+"dong_ho_dien_tu\stm32f1xx_hal_dma.o"
+"dong_ho_dien_tu\stm32f1xx_hal_cortex.o"
+"dong_ho_dien_tu\stm32f1xx_hal_pwr.o"
+"dong_ho_dien_tu\stm32f1xx_hal_flash.o"
+"dong_ho_dien_tu\stm32f1xx_hal_flash_ex.o"
+"dong_ho_dien_tu\stm32f1xx_hal_exti.o"
+"dong_ho_dien_tu\stm32f1xx_hal_tim.o"
+"dong_ho_dien_tu\stm32f1xx_hal_tim_ex.o"
+"dong_ho_dien_tu\system_stm32f1xx.o"
+"dong_ho_dien_tu\ds1307.o"
+"dong_ho_dien_tu\liquidcrystal_i2c.o"
+--strict --scatter "Dong_ho_dien_tu\Dong_ho_dien_tu.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Dong_ho_dien_tu.map" -o Dong_ho_dien_tu\Dong_ho_dien_tu.axf
